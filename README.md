@@ -28,7 +28,7 @@ English Songs by Michael Jackson
 
 The following steps were undertaken to develop and refine the classification model:
 
-1. # Feature Extraction (MFCC Generation)
+# 1. Feature Extraction (MFCC Generation)
 
 Pre-emphasis to enhance high-frequency components.
 
@@ -40,7 +40,7 @@ Mel Scale Conversion to align with human auditory perception.
 
 Discrete Cosine Transform (DCT) to obtain Cepstral Coefficients.
 
-2. # Feature Engineering & Selection
+# 2. Feature Engineering & Selection
 
 Initially assumed 109 random features categorized into:
 
@@ -88,7 +88,7 @@ MELODIC_STRENGTH_0
 
 TRANSITION_SKEW
 
-3. # Model Training & Classification
+# 3. Model Training & Classification
 
 We applied multiple machine learning models to classify the songs into the six categories:
 
@@ -98,7 +98,7 @@ K-Nearest Neighbors (KNN)
 
 Support Vector Machine (SVM)
 
-4. # Model Evaluation & Results
+# 4. Model Evaluation & Results
 
 The trained models were evaluated using standard classification metrics.
 
@@ -119,18 +119,6 @@ Feature selection helped in reducing dimensionality while retaining essential in
 The combination of machine learning models helped achieve better classification accuracy.
 
 Some challenges, such as noise in recordings and differences in microphone quality, affected feature extraction.
-
-# Future Improvements
-
-Improving data quality and reducing noise in recordings.
-
-Expanding dataset size to include more diverse song categories.
-
-Using deep learning models like CNNs or RNNs for improved accuracy.
-
-Developing a real-time application for automatic song classification.
-
-Exploring applications in voice cloning and music recommendation systems.
 
 # Conclusion
 
